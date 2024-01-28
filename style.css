@@ -1,0 +1,85 @@
+body {
+    
+    justify-content: center;
+    align-items: center;
+    background-color: hsl(0, 0%, 8%);
+    color: whitesmoke;
+    display: flex;
+    height:100vh;
+    font-family: 'Poppins';
+
+}
+
+h1, h2, h3, h4, h5, h6,p {
+    margin: 0;
+    padding: 0;
+}
+
+
+.attribution {
+    font-size: 11px;
+    text-align: center;
+    width: 400px;
+    height: auto;
+    background-color: hsl(0, 0%, 12%);
+    border-radius: 5%;
+}
+
+.attribution a {
+    color: hsl(228, 45%, 44%);
+}
+
+.avatar img{
+    border-radius: 100%;
+    width: 100px;
+    margin-top: 20px;
+}
+
+.user-info {
+    
+    margin: 0;
+}
+
+.user-info h2{
+    margin: 0;
+    font-size: 14px;
+    color: hsl(75, 94%, 57%);
+    font-weight: 400;
+}
+
+.user-info p{
+    margin-top: 24px;
+    font-size: 16px;
+}
+
+a {
+    margin: 10px 15px;
+    width: auto;
+    background-color: hsl(0, 0%, 20%);
+    color: white;
+    height: 30px;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    border-radius: 10px;
+    transition: 0.1s;
+    text-decoration: none;
+    text-align: center;
+
+}
+
+a h5 {
+    font-weight: 500;
+    font-size: 14px;
+}
+
+a:visited {
+    color: white;
+}
+
+a:hover{
+    background-color: hsl(75, 94%, 57%);
+    color: hsl(0, 0%, 12%);
+    text-decoration: none;
+}
